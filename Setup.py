@@ -2,19 +2,12 @@ from subprocess import call
 import os
 
 def main():
-    print("Creating Empty git repository")
+
     createGitRepository()
-    print("Creating a git ignore")
     createGitIgnore()
-    print("Creating your file directory with a test directory")
     createFileDirectory()
-    print("Starting SBT")
     startSbt()
-    print("Creating a readme")
     createReadme()
-
-
-
     print("DONE!")
 
 
