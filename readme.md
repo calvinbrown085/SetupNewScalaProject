@@ -7,5 +7,7 @@
 1. The script should do the rest of the work for you.
 
 This script will create a `src/main/scala` and a `src/main/test` empty directory's so you don't have too.
+
 This script will also create a basic Main.scala file with a main function to run things from
+
 It will also create an empty `readme.md` and an empty `.gitignore`
